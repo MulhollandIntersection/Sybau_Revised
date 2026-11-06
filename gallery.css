@@ -1,0 +1,13 @@
+/* Gallery: masonry-style columns so photos keep their own proportions */
+main{max-width:1200px;width:100%;margin:0 auto;padding:0 var(--gutter) clamp(24px,5vw,60px)}
+#text{text-align:center;font-size:clamp(2rem,8vw,3.5rem);margin:clamp(20px,4vw,40px) 0 20px}
+.gallery{columns:1;column-gap:16px}
+.gallery-item{break-inside:avoid;margin:0 0 16px;padding:10px;text-align:center;background:rgb(50,50,50);border-radius:15px;box-shadow:0 4px 8px rgba(0,0,0,.2);transition:transform .3s,box-shadow .3s}
+.gallery-item img{display:block;width:100%;height:auto;border-radius:10px}
+.gallery-item h2{font-size:1.15rem;margin:.7em 0 .2em}
+.gallery-item p{margin:0 0 .4em;font-size:.9rem;color:rgba(255,255,255,.5)}
+@media (hover:hover){.gallery-item:hover{box-shadow:0 8px 16px rgba(0,0,0,.5);transform:translateY(-5px)}}
+@media (min-width:560px){.gallery{columns:2}}
+@media (min-width:900px){.gallery{columns:3}}
+
+.gallery-item video{display:block;width:100%;height:auto;max-height:70vh;border-radius:10px;background:#000}

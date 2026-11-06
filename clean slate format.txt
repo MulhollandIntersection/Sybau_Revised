@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Intel+One+Mono:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
+    <title>Sybau Main Page</title>
+    <link rel="stylesheet" href="base.css" />
+    <link rel="stylesheet" href="member-info.css">
+</head>
+<body>
+    <div class="site-top">
+    <header>
+        <img src="logo.jpg" alt="Sybauology logo">
+        <h1>Sybauology</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="mainpage.html">Our Members</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+    </div>
+
+    <main>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Sybauology. All rights reserved.</p>
+        <p>Created by John Charles B. Yanson (<a href="https://github.com/MulhollandIntersection">MulhollandIntersection</a>)</p>
+    </footer>
+</body>
+</html>
